@@ -1,3 +1,5 @@
+import { memo } from "react";
+
 const Burger = ({ active, setActive }) => (
   <div className="flex items-center w-full md:w-auto sm:hidden">
     <div className="-mr-2 flex items-center md:hidden">
@@ -29,4 +31,4 @@ const Burger = ({ active, setActive }) => (
   </div>
 );
 
-export default Burger;
+export default memo(Burger);

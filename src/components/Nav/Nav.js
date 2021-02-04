@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, memo } from "react";
 import MobileNav from "./MobileNav";
 import Burger from "./Burger";
 
@@ -62,4 +62,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default memo(Nav);

@@ -1,3 +1,4 @@
+import { memo } from "react";
 import { navLinksLeft } from "./Nav";
 
 const MobileNav = ({ active, setActive }) => (
@@ -64,4 +65,4 @@ const MobileNav = ({ active, setActive }) => (
   </div>
 );
 
-export default MobileNav;
+export default memo(MobileNav);
