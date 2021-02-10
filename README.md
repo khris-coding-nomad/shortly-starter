@@ -1,4 +1,4 @@
-# Shortly - React tutorial for beginners 2021
-URL Link Shortener with React, Tailwind and Shrtcode.
- TEST
-# shortly-starter
+# Shortly-starter
+
+Create React App starter for "React tutorial for beginners 2021".
+Tailwind is installed and configured, and the layout includes a completed navbar.
